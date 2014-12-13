@@ -43,6 +43,25 @@ Finaly,
 
 ```
 # layman -f -a grauwoelfchen
+stockhorn overlays # layman -f -a grauwoelfchen
+
+ * Fetching remote list,...
+ * Fetching new list... http://www.gentoo.org/proj/en/overlays/repositories.xml
+ * Last-modified: Sat, 06 Dec 2014 16:10:03 GMT
+ * Fetch Ok
+
+ * Adding overlay,...
+ * Running Git... # ( cd /var/lib/layman  && /usr/bin/git clone git://github.com/grauwoelfchen/portage-overlay.git /var/lib/layman/grauwoelfchen )
+Cloning into '/var/lib/layman/grauwoelfchen'...
+remote: Counting objects: 8, done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 8 (delta 0), reused 7 (delta 0)
+Receiving objects: 100% (8/8), done.
+Checking connectivity... done.
+ * Running Git... # ( cd /var/lib/layman/grauwoelfchen  && /usr/bin/git config user.name "layman" )
+ * Running Git... # ( cd /var/lib/layman/grauwoelfchen  && /usr/bin/git config user.email "layman@localhost" )
+Unavailable repository 'gento' referenced by masters entry in '/var/lib/layman/grauwoelfchen/metadata/layout.conf'
+ * Successfully added overlay(s) grauwoelfchen.
 ```
 
 
