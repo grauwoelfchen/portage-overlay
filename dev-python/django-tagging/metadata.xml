@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <longdescription lang="en">A generic tagging application for Django projects, which allows association of a number of tags with any Model instance and makes retrieval of tags simple.</longdescription>
+  <maintainer>
+    <email>grauwoelfchen@gmail.com</email>
+  </maintainer>
+</pkgmetadata>
