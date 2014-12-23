@@ -19,8 +19,7 @@ IUSE=""
 
 DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 RDEPEND="${DEPEND}
-	=dev-python/carbon-0.9.12[${PYTHON_USEDEP}]
-	dev-python/twisted-core
+	dev-python/carbon[${PYTHON_USEDEP}]
 	dev-python/whisper[${PYTHON_USEDEP}]
 	=dev-python/django-1.5*[${PYTHON_USEDEP}]
 	dev-python/django-tagging[${PYTHON_USEDEP}]

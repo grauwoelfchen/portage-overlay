@@ -3,5 +3,9 @@
 # $Header: $
 
   24 Dec 2014; Yasuhiro Asaka <grauwoelfchen@gmail.com> +graphite-web-0.9.12.ebuild,
+  Manifest, ChangeLog:
+  Remove unuse version dependency agaist carbon.
+
+  24 Dec 2014; Yasuhiro Asaka <grauwoelfchen@gmail.com> +graphite-web-0.9.12.ebuild,
   metadata.xml, Manifest, ChangeLog:
   Initial release.
