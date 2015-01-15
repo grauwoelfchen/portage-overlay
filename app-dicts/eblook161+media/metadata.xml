@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <longdescription lang="en">Interactive search utility for electronic dictionaries</longdescription>
+  <use>
+    <flag name="pager">Support pager</flag>
+  </use>
+  <maintainer>
+    <email>grauwoelfchen@gmail.com</email>
+  </maintainer>
+</pkgmetadata>

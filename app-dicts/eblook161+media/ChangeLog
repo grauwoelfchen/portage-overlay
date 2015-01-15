@@ -1,0 +1,7 @@
+# ChangeLog for app-dicts/eblook161+media
+# Copyright 1999-2015 Gentoo Foundation; Distributed under the GPL v2
+# $Header: $
+
+  15 Jan 2015; Yasuhiro Asaka <grauwoelfchen@gmail.com>
+	+eblook161+media+20141116.ebuild, metadata.xml, Manifest, ChangeLog:
+  Initial release.
