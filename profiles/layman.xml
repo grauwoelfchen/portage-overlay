@@ -4,11 +4,11 @@
   <repo priority="50" quality="experimental" status="unofficial">
     <name>grauwoelfchen</name>
     <description>Custom stuff by grauwoelfchen</description>>
-    <homepage>https://github.com/grauwoelfchen/portage-overlay</homepage>
+    <homepage>https://gitlab.com/grauwoelfchen/portage-overlay</homepage>
     <owner>
-      <email>grauwoelfchen@gmail.com</email>
+      <email>yasuhiro.asaka@grauwoelfchen.net</email>
     </owner>
-    <source type="git">git://github.com/grauwoelfchen/portage-overlay.git</source>
-    <feed>https://github.com/grauwoelfchen/portage-overlay/commits/master.atom</feed>
+    <source type="git">git@gitlab.com:grauwoelfchen/portage-overlay.git</source>
+    <feed>https://gitlab.com/grauwoelfchen/portage-overlay/commits/master.atom</feed>
   </repo>
 </repositories>
