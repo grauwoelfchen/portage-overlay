@@ -63,7 +63,37 @@ Unavailable repository 'gento' referenced by masters entry in '/var/lib/layman/g
 ```
 
 
-## Links
+## Note
+
+### Ebuild Writing
+
+https://devmanual.gentoo.org/ebuild-writing/index.html
+
+`skel.ebuild`:
+https://gitweb.gentoo.org/repo/gentoo.git/tree/skel.ebuild
+
+### How to create ebuild
+
+```zsh
+% sudo rm -fr /var/tmp/portage/<..>/${PN}-${PV}/
+
+% cd /path/to/ebuild
+% ebuild ${PN}-${PV}.ebuild clean manifest unpack
+% ebuild ${PN}-${PV}.ebuild compile
+```
+
+### Get cargo dependencies tree
+
+Copy them into X11 clipboard.
+
+```zsh
+% cargo install tree
+% cargo tree --all-features --no-indent | sort | \
+sed 's/\sv/-/g;s/\s(\*)//g' | uniq | xsel -ib
+```
+
+
+## Link
 
 * [Gentoo Linux Documentation -- Gentoo Overlays: Users' Guide](
 https://www.gentoo.org/proj/en/overlays/userguide.xml)
