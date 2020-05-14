@@ -65,13 +65,6 @@ Unavailable repository 'gento' referenced by masters entry in '/var/lib/layman/g
 
 ## Note
 
-### Ebuild Writing
-
-https://devmanual.gentoo.org/ebuild-writing/index.html
-
-`skel.ebuild`:
-https://gitweb.gentoo.org/repo/gentoo.git/tree/skel.ebuild
-
 ### How to create ebuild
 
 ```zsh
@@ -99,4 +92,12 @@ sed 's/\sv/-/g;s/\s(\*)//g' | uniq | xsel -ib
 https://www.gentoo.org/proj/en/overlays/userguide.xml)
 * [Gentoo Linux Documentation -- Gentoo Overlays: Developers' Guide](
 http://www.gentoo.org/proj/en/overlays/devguide.xml)
+* [ebuild – Gentoo Development Guide](
+https://devmanual.gentoo.org/eclass-reference/ebuild/index.html)
+* [Basic guide to write Gentoo Ebuilds](
+https://wiki.gentoo.org/wiki/Basic_guide_to_write_Gentoo_Ebuilds#How_to_create_an_ebuild)
+* [Ebuild Writing – Gentoo Development Guide](
+https://devmanual.gentoo.org/ebuild-writing/index.html)
+* [skel.ebuild - repo/gentoo.git](
+https://gitweb.gentoo.org/repo/gentoo.git/tree/skel.ebuild)
 * [Layman - Gentoo Wiki](http://wiki.gentoo.org/wiki/Layman)
