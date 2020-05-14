@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <repositories version="1.0">
   <repo priority="50" quality="experimental" status="unofficial">
     <name>grauwoelfchen</name>
-    <description>Custom stuff by grauwoelfchen</description>>
+    <description>Ebuilds by grauwoelfchen</description>>
     <homepage>https://gitlab.com/grauwoelfchen/portage-overlay</homepage>
     <owner>
       <email>yasuhiro.asaka@grauwoelfchen.net</email>
+		  <name>Yasuhiro Яша Asaka</name>
     </owner>
     <source type="git">git@gitlab.com:grauwoelfchen/portage-overlay.git</source>
     <feed>https://gitlab.com/grauwoelfchen/portage-overlay/commits/master.atom</feed>
