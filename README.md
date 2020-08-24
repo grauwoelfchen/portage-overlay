@@ -31,9 +31,10 @@ Download layman.xml form this repository.
 
 ```zsh
 % cd /etc/layman/overlays
-% curl -L \
+% sudo curl -L \
 https://gitlab.com/grauwoelfchen/portage-overlay/raw/master/profiles/layman.xml \
-grauwoelfchen.xml
+-o grauwoelfchen.xml
+% sudo layman -L
 ```
 
 Or use `layman-overlay-maker`
