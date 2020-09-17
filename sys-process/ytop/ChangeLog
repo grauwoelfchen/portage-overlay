@@ -1,6 +1,10 @@
 # ChangeLog for sys-process/ytop
 # Copyright 1999-2020 Gentoo Foundation; Distributed under the GPL v2
 
+  18 Sep 2020; Yasuhiro Яша Asaka <yasuhiro.asaka@grauwoelfchen.net> +ytop-0.6.2.ebuild,
+  Manifest, ChangeLog:
+  Add sys-process/ytop-0.6.2.
+
   11 May 2020; Yasuhiro Яша Asaka <yasuhiro.asaka@grauwoelfchen.net> +ytop-0.6.1.ebuild,
   metadata.xml, Manifest, ChangeLog:
   Initial release.
