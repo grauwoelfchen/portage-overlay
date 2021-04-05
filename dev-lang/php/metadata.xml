@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription lang="en">
+		Old PHP from repo/gentoo.git (please do not use)
+	</longdescription>
+	<maintainer type="person">
+		<email>yasuhiro.asaka@grauwoelfchen.net</email>
+		<name>Yasuhiro Яша Asaka</name>
+	</maintainer>
+	<use></use>
+</pkgmetadata>
